@@ -1,0 +1,71 @@
+/*
+* Maddie Tonn 
+* May 30, 2019 
+* Final Project on Misty Copeland   
+*/
+
+/* The universal selector */
+
+* {
+
+/* Margin and padding of the whole page */
+margin:0;
+padding:0;
+
+}
+body {
+/* Body attributes here */
+
+/* Format of the webpage */
+    width: 90% ;
+    background-color: antiquewhite;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+
+/* Formatting, style, margin, and padding of all the different text sections */ 
+
+header { border-bottom: 5px solid hotpink; padding-bottom: 25px; text-align: center; }
+
+h1 { color: deeppink; font-family: sans-serif; margin-top: 10px; padding: 10px; }
+
+h2 { margin-bottom: 10px; text-align: center; color: deeppink; }
+
+aside { margin-left: 10px; margin-top: 10px; margin-bottom: 10px; text-align: center; right; }
+
+p { margin-bottom: 10px; margin-left: 10px; margin-right: 10px}
+
+main { width: 55%; height: 500px; float: left; color: black; margin-top: 10px }
+
+footer { clear: both; border-top: 5px solid hotpink; }
+
+figure { text-align: center; }
+
+ul { margin-left: 30px; margin-top: 10px; margin-bottom: 10px; }
+
+/* Format and style of the two sidebars */
+
+#sidebarA { width: 20%; height: 500px; float: left; border-right: 5px solid hotpink; }
+
+#sidebarB { width: 20%; height: 500px; float: right; border-left: 5px solid hotpink; }
+
+/* Format and style of all the images */
+
+#image1 { width: 300px; height: 150px; margin: 9px; border: 2px dotted black; }
+
+#image2 { width: 150px; height: 170px; margin: 9px; border: 2px dashed black; }
+
+#image3 { width: 150px; height: 150; border: 2px dotted black; }
+
+#image4 { width: 210px; height: 100px; margin-bottom: 10px; border: 2px dashed black; }
+
+/* Format and style of the sources in footer */
+
+#sources { text-align: left; margin-left: 10px; margin-top: 10px; }
+
+/* Format and style of the quote */
+
+#quote { background-color: pink; border-bottom: 5px solid hotpink; height: 50px; padding-top: 10px; }
+
+
